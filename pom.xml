@@ -3,6 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<parent>
+		<groupId>com.starter</groupId>
+		<artifactId>dependencies</artifactId>
+		<version>${revision}</version>
+		<relativePath>./dependencies</relativePath>
+	</parent>
+
 	<groupId>com.starter</groupId>
 	<artifactId>parent</artifactId>
 	<version>${revision}</version>
@@ -12,17 +19,14 @@
 		<module>dependencies</module>
 		<module>common-core</module>
 		<module>common-web</module>
+		<module>example</module>
 
     </modules>
 	<name>${project.artifactId}</name>
 	<description>spring boot starter suite</description>
 
 	<properties>
-		<!-- bom中也要定义 -->
-		<revision>0.0.1-SNAPSHOT</revision>
-
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<!-- 覆盖 spring boot 的默认java版本 -->
 		<java.version>1.8</java.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
@@ -62,13 +66,7 @@
 
 	<dependencyManagement>
 		<dependencies>
-			<dependency>
-				<groupId>com.starter</groupId>
-				<artifactId>dependencies</artifactId>
-				<version>${revision}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 

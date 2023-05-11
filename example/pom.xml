@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.starter</groupId>
+		<artifactId>parent</artifactId>
+		<version>${revision}</version>
+	</parent>
+
+	<groupId>com.starter</groupId>
+	<artifactId>example</artifactId>
+	<version>${revision}</version>
+    <packaging>pom</packaging>
+	<name>example</name>
+	<description>Demo project for Spring Boot</description>
+
+    <modules>
+		<module>example-web</module>
+<!--        <module>example-file</module>-->
+<!--        <module>example-email</module>-->
+<!--		<module>example-sms</module>-->
+<!--		<module>example-cache</module>-->
+<!--		<module>example-resource</module>-->
+    </modules>
+
+</project>
