@@ -10,15 +10,15 @@
 		<relativePath>./dependencies</relativePath>
 	</parent>
 
-	<groupId>com.starter</groupId>
-	<artifactId>parent</artifactId>
+	<groupId>com.startersuite</groupId>
+	<artifactId>startersuite</artifactId>
 	<version>${revision}</version>
 	<packaging>pom</packaging>
 
     <modules>
 		<module>dependencies</module>
-		<module>common-core</module>
-		<module>common-web</module>
+		<module>common</module>
+		<module>web-spring-boot-starter</module>
 		<module>example</module>
 
     </modules>

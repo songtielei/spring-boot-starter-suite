@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.starter</groupId>
-		<artifactId>parent</artifactId>
+		<groupId>com.startersuite</groupId>
+		<artifactId>startersuite</artifactId>
 		<version>${revision}</version>
 	</parent>
 
-	<groupId>com.starter</groupId>
+	<groupId>com.startersuite</groupId>
 	<artifactId>example</artifactId>
 	<version>${revision}</version>
     <packaging>pom</packaging>

@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.starter</groupId>
-        <artifactId>parent</artifactId>
+        <groupId>com.startersuite</groupId>
+        <artifactId>startersuite</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <artifactId>core</artifactId>
+    <artifactId>common</artifactId>
     <packaging>jar</packaging>
     <version>${revision}</version>
 

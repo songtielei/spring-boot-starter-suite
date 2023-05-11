@@ -2,19 +2,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.starter</groupId>
-		<artifactId>parent</artifactId>
+		<groupId>com.startersuite</groupId>
+		<artifactId>startersuite</artifactId>
 		<version>${revision}</version>
 	</parent>
-	<artifactId>common-web-spring-boot-starter</artifactId>
+	<artifactId>web-spring-boot-starter</artifactId>
 
 	<name>${project.artifactId}</name>
 	<description>starter web</description>
 
 	<dependencies>
 		<dependency>
-			<groupId>com.starter</groupId>
-			<artifactId>core</artifactId>
+			<groupId>com.startersuite</groupId>
+			<artifactId>common</artifactId>
 			<version>${revision}</version>
 		</dependency>
 		<dependency>

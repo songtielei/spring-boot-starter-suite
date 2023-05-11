@@ -3,11 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.starter</groupId>
+		<groupId>com.startersuite</groupId>
 		<artifactId>example</artifactId>
 		<version>${revision}</version>
 	</parent>
-	<groupId>com.starter.example</groupId>
+	<groupId>com.startersuite.example</groupId>
 	<artifactId>example-web</artifactId>
 	<version>${revision}</version>
 	<name>${project.artifactId}</name>
@@ -15,8 +15,8 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.starter</groupId>
-			<artifactId>common-web-spring-boot-starter</artifactId>
+			<groupId>com.startersuite</groupId>
+			<artifactId>web-spring-boot-starter</artifactId>
 			<version>${revision}</version>
 		</dependency>
 		<dependency>
