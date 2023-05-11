@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.starter</groupId>
+		<groupId>com.startersuite</groupId>
 		<artifactId>dependencies</artifactId>
 		<version>${revision}</version>
 		<relativePath>./dependencies</relativePath>
