@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.startersuite.file.config.HostStorageConfig,\
+com.startersuite.file.config.FastDFSStorageConfig, \
+com.startersuite.file.config.S3StorageConfig
