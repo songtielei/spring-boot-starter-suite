@@ -18,6 +18,7 @@
 
     <modules>
 		<module>example-web</module>
+		<module>example-sms</module>
 <!--        <module>example-file</module>-->
 <!--        <module>example-email</module>-->
 <!--		<module>example-sms</module>-->

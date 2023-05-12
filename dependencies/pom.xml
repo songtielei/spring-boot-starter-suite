@@ -30,6 +30,17 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.startersuite</groupId>
+                <artifactId>web-spring-boot-starter</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.startersuite</groupId>
+                <artifactId>sms-spring-boot-starter</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
             <!-- 统一依赖管理 -->
             <dependency>
                 <groupId>io.springfox</groupId>

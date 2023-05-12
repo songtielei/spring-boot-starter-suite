@@ -1,0 +1,12 @@
+
+ronglian:
+  serverIp: app.cloopen.com
+  serverPort: 8883
+  accountSid: 8aaf0708570871f801571e051bea0c97
+  accountToken: d2999210150e469583a961257a366032
+  appId: 8aaf0708570871f801571e051d8d0c9e
+
+logging:
+  level:
+    root: info
+    com.startersuite.example: debug
