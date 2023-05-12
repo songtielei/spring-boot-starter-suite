@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.startersuite.sms.config.YunpianConfig,\
+com.startersuite.sms.config.RonglianConfig
