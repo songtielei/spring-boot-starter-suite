@@ -15,7 +15,6 @@
 		<dependency>
 			<groupId>com.startersuite</groupId>
 			<artifactId>common</artifactId>
-			<version>${revision}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

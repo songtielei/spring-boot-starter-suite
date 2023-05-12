@@ -34,12 +34,22 @@
         <dependencies>
             <dependency>
                 <groupId>com.startersuite</groupId>
+                <artifactId>common</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.startersuite</groupId>
                 <artifactId>web-spring-boot-starter</artifactId>
                 <version>${revision}</version>
             </dependency>
             <dependency>
                 <groupId>com.startersuite</groupId>
                 <artifactId>sms-spring-boot-starter</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.startersuite</groupId>
+                <artifactId>file-spring-boot-starter</artifactId>
                 <version>${revision}</version>
             </dependency>
 
