@@ -20,7 +20,7 @@
     <description>基础 bom 文件，管理整个项目的依赖版本</description>
 
     <properties>
-        <revision>0.0.1</revision>
+        <revision>0.0.2-SNAPSHOT</revision>
 
         <springfox.version>3.0.0</springfox.version>
         <mybatis-plus.version>3.5.1</mybatis-plus.version>
