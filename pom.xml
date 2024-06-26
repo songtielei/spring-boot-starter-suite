@@ -10,7 +10,6 @@
 		<relativePath>./dependencies</relativePath>
 	</parent>
 
-	<groupId>com.startersuite</groupId>
 	<artifactId>startersuite</artifactId>
 	<version>${revision}</version>
 	<packaging>pom</packaging>
